@@ -89,23 +89,8 @@ if [ "$SOURCE_COMPILE" = "yes" ]; then
 #--------------------------------------------------------------------------------------------------------------------------------
 # Compiling everything
 #--------------------------------------------------------------------------------------------------------------------------------
-
-#--------------------------------------------------------------------------------------------------------------------------------
 # Patching sources
-#--------------------------------------------------------------------------------------------------------------------------------
-cd $DEST/$LINUXSOURCE
-if [[ $LINUXSOURCE == "linux-sunxi" ]] ; then
-	patch --batch -N -p1 < $SRC/patch/gpio.patch
-	patch --batch -N -p1 < $SRC/patch/spi.patch
-	if [[ $BOARD == "bananapi" ]] ; then
-		patch --batch -N -p1 < $SRC/patch/bananagmac.patch
-	fi
-	# compile sunxi tools
-	compile_sunxi_tools
-fi
-if [[ $LINUXSOURCE == "linux-cubox-next" ]] ; then
-	patch --batch -N -p1 < $SRC/patch/hb-i2c-spi.patch
-fi
+patching_sources
 # compile boot loader
 compile_uboot 
 # compile kernel and create archives
