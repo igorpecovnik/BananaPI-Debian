@@ -100,12 +100,12 @@ if [[ $LINUXSOURCE == "linux-sunxi" ]] ; then
 	if [[ $BOARD == "bananapi" ]] ; then
 		patch --batch -N -p1 < $SRC/patch/bananagmac.patch
 	fi
+	# compile sunxi tools
+	compile_sunxi_tools
 fi
 if [[ $LINUXSOURCE == "linux-cubox-next" ]] ; then
 	patch --batch -N -p1 < $SRC/patch/hb-i2c-spi.patch
 fi
-# compile sunxi tools
-compile_sunxi_tools
 # compile boot loader
 compile_uboot 
 # compile kernel and create archives
