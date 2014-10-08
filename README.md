@@ -5,6 +5,10 @@ Banana-PI-Debian
 
 Scripts to create an Image of Debian for Banana PI 
 
+Check build libraries:
+
+https://github.com/igorpecovnik/lib
+
 Images, manual and history:
 
 http://www.igorpecovnik.com/2014/09/07/banana-pi-debian-sd-image/
