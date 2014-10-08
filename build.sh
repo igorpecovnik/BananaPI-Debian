@@ -115,6 +115,11 @@ compile_kernel
 packing_kernel
 fi
 
+# check if previously build kernel file exits
+if [ ! -f "$DEST/output/"$BOARD"_kernel_"$VER"_mod_head_fw.tar" ]; then 
+	echo "Previously compiled kernel does not exits. Please choose compile=yes in configuration and run again!"
+	exit 
+fi
 
 # prepare image with bootloader
 creating_image
