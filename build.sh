@@ -95,7 +95,6 @@ if [ "$SOURCE_COMPILE" = "yes" ]; then
 #--------------------------------------------------------------------------------------------------------------------------------
 cd $DEST/$LINUXSOURCE
 if [[ $LINUXSOURCE == "linux-sunxi" ]] ; then
-	sed -e 's/.clock = 480/.clock = 432/g' -i $DEST/u-boot-sunxi/board/sunxi/dram_cubieboard2.c 
 	patch --batch -N -p1 < $SRC/patch/gpio.patch
 	patch --batch -N -p1 < $SRC/patch/spi.patch
 	if [[ $BOARD == "bananapi" ]] ; then
