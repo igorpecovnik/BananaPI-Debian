@@ -7,7 +7,7 @@
 
 BOARD="bananapi"						# bananapi, cubietruck, cubox-i, bananapi-next, cubietruck-next
 RELEASE="wheezy"                                   		# jessie or wheezy
-VERSION="Banana Debian 1.2 $RELEASE"               		# just name
+VERSION="Banana Debian 1.3 $RELEASE"               		# just name
 SOURCE_COMPILE="yes"                               		# yes / no
 DEST_LANG="en_US.UTF-8"                         	 	# sl_SI.UTF-8, en_US.UTF-8
 TZDATA="Europe/Ljubljana"                         		# Timezone
@@ -98,13 +98,6 @@ compile_kernel
 # create tar file
 packing_kernel
 fi
-
-# check if previously build kernel file exits
-if [ ! -f "$DEST/output/"$BOARD"_kernel_"$VER"_mod_head_fw.tar" ]; then 
-	echo "Previously compiled kernel does not exits. Please choose compile=yes in configuration and run again!"
-	exit 
-fi
-
 # prepare image with bootloader
 creating_image
 # install base system
