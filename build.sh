@@ -16,7 +16,7 @@ ROOTPWD="1234"                               		  	# Must be changed @first login
 HOST="banana"						 	# Hostname
 USEALLCORES="no"						# Use all CPU cores for compiling
 SDSIZE="1000"							# SD image size in MB
-FBTFT="yes"							# Small TFT support, https://github.com/notro/fbtft
+FBTFT="no"							# Small TFT support, https://github.com/notro/fbtft
 
 #--------------------------------------------------------------------------------------------------------------------------------
 # superuser have to do this
