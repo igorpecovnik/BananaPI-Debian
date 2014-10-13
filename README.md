@@ -17,7 +17,7 @@ http://www.igorpecovnik.com/2014/09/07/banana-pi-debian-sd-image/
 
 
 
-<img src="http://www.igorpecovnik.com/wp-content/uploads/2014/10/bitcoinigor.png">
+<a href="#"><img src="http://www.igorpecovnik.com/wp-content/uploads/2014/10/bitcoinigor.png"></a#>>
 
 17vT6hV83EQ6rizbWeasfy1tWEzFpzYqEE
 
