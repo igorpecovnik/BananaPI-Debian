@@ -14,7 +14,7 @@ http://www.igorpecovnik.com/2014/09/07/banana-pi-debian-sd-image/
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CUYH2KR36YB7W"><img style="padding:0;" width=74 height=21  src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" alt="Donate!" / border="0"></a>
 
 
-<img src="http://valessiobrito.com.br/wp-content/uploads/2014/03/bitcoindonate.png" border="0">
+<a href="bitcoin:17vT6hV83EQ6rizbWeasfy1tWEzFpzYqEE?amount=0.02&label=Donate%20for%20Arm%20Images><img src="http://valessiobrito.com.br/wp-content/uploads/2014/03/bitcoindonate.png" border="0"></a>
 
 Installation steps
 ------------------
