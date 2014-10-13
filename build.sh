@@ -5,7 +5,7 @@
 # Configuration 
 #--------------------------------------------------------------------------------------------------------------------------------
 
-BOARD="bananapi"										# bananapi, cubietruck, cubox-i, bananapi-next, cubietruck-next
+BOARD="bananapi"						# bananapi, cubietruck, cubox-i, bananapi-next, cubietruck-next
 RELEASE="wheezy"                                   		# jessie or wheezy
 VERSION="Banana Debian 1.3 $RELEASE"               		# just name
 SOURCE_COMPILE="yes"                               		# yes / no
@@ -13,9 +13,9 @@ DEST_LANG="en_US.UTF-8"                         	 	# sl_SI.UTF-8, en_US.UTF-8
 TZDATA="Europe/Ljubljana"                         		# Timezone
 DEST=$(pwd)/output                      		      	# Destination
 ROOTPWD="1234"                               		  	# Must be changed @first login
-HOST="banana"						  				 	# Hostname
-USEALLCORES="no"										# Use all CPU cores for compiling
-SDSIZE="1000"											# SD image size in MB
+HOST="banana"						 	# Hostname
+USEALLCORES="no"						# Use all CPU cores for compiling
+SDSIZE="1000"							# SD image size in MB
 
 #--------------------------------------------------------------------------------------------------------------------------------
 # superuser have to do this
