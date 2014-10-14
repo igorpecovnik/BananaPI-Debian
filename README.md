@@ -29,4 +29,4 @@ chmod +x ./BananaPI-Debian/build.sh
 cd ./BananaPI-Debian
 sudo ./build.sh
 ```
-Whole process takes 2-3h on a 10Mbit line and average desktop computer.
+Whole process takes around 3h on a 10Mbit line and average desktop computer.
