@@ -2,12 +2,9 @@ BananaPi Debian
 ================
 ![](http://www.igorpecovnik.com/wp-content/uploads/2014/09/bananapi-ssh.png)
 
-Script to create an image of Debian for Banana PI.
+Script to create an SD card bootable image of Debian for Banana PI.
 
-![](http://www.igorpecovnik.com/wp-content/uploads/2014/09/bananapi.png)
-
-Check build libraries:
-https://github.com/igorpecovnik/lib
+[Check build libraries](https://github.com/igorpecovnik/lib)
 
 Download images, support and history
 ------------------
@@ -26,13 +23,19 @@ Compilation steps
 ------------------
 1. [Install Ubuntu 14.04 LTS](http://releases.ubuntu.com/14.04/) into your (virtual) PC
 2. Login as root and execute:
-
 ```shell
 sudo apt-get -y install git
 cd ~
 git clone https://github.com/igorpecovnik/BananaPI-Debian
 chmod +x ./BananaPI-Debian/build.sh
 cd ./BananaPI-Debian
+```
+edit build.sh and alter configuration
+
+```shell
 sudo ./build.sh
 ```
+
 3. Wait around 3h on a 10Mbit line and average desktop computer.
+4. If build is succesfull you will find zipped image in your **output/output** directory. Unzip and burn with supplied writter or DD (Unix / Mac) to your SD card.
+5. Boot your Banana :=)
