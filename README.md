@@ -1,4 +1,4 @@
-Banana-PI-Debian
+BananaPi Debian image
 ================
 
 <img src="http://www.igorpecovnik.com/wp-content/uploads/2014/09/bananapi-ssh.png" alt="cubox-login" width="640" height="412">
@@ -8,7 +8,8 @@ Scripts to create an Image of Debian for Banana PI
 Check build libraries:
 https://github.com/igorpecovnik/lib
 
-Images, manual and history:
+Images, support and history:
+------------------
 http://www.igorpecovnik.com/2014/09/07/banana-pi-debian-sd-image/
 
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CUYH2KR36YB7W"><img style="padding:0;" width=74 height=21  src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" alt="Donate!" / border="0"></a>
