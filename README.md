@@ -8,14 +8,15 @@ Scripts to create an Image of Debian for Banana PI
 Check build libraries:
 https://github.com/igorpecovnik/lib
 
-Images, support and history:
+Prebuild images, support and history:
 ------------------
 http://www.igorpecovnik.com/2014/09/07/banana-pi-debian-sd-image/
 
+If you like my work please donate! Thank you.
+------------------
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CUYH2KR36YB7W"><img style="padding:0;" width=74 height=21  src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" alt="Donate!" / border="0"></a>
 
-Bitcoin:
-17vT6hV83EQ6rizbWeasfy1tWEzFpzYqEE
+Bitcoin Address: 17vT6hV83EQ6rizbWeasfy1tWEzFpzYqEE
 
 Installation steps
 ------------------
