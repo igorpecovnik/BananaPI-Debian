@@ -6,7 +6,7 @@ Script to create bootable SD card image of Debian for Banana PI.
 
 [Check build libraries](https://github.com/igorpecovnik/lib)
 
-Download images, ask question and check history
+Prebuild images, support & history
 ------------------
 [http://www.igorpecovnik.com/2014/09/07/banana-pi-debian-sd-image/](http://www.igorpecovnik.com/2014/09/07/banana-pi-debian-sd-image/ "Download")
 
