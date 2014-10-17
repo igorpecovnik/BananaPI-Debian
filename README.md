@@ -38,4 +38,3 @@ sudo ./build.sh
 - Wait around 3h on a 10Mbit line and average desktop computer.
 - If build is succesfull you will find zipped image in your **output/output** directory. Unzip and burn with supplied writter or DD (Unix / Mac) to your SD card.
 - Boot your Banana :=)
-- 
