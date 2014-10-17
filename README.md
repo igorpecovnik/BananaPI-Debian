@@ -19,7 +19,7 @@ Thank you for your donation
 
 17vT6hV83EQ6rizbWeasfy1tWEzFpzYqEE
 
-Compilation steps
+DIY
 ------------------
 - [Install Ubuntu 14.04 LTS](http://releases.ubuntu.com/14.04/) into your (virtual) PC
 - Login as root and execute:
