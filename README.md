@@ -21,8 +21,8 @@ Thank you for your donation
 
 Compilation steps
 ------------------
-1. [Install Ubuntu 14.04 LTS](http://releases.ubuntu.com/14.04/) into your (virtual) PC
-2. Login as root and execute:
+- [Install Ubuntu 14.04 LTS](http://releases.ubuntu.com/14.04/) into your (virtual) PC
+- Login as root and execute:
 ```shell
 sudo apt-get -y install git
 cd ~
@@ -35,6 +35,7 @@ edit build.sh and alter configuration
 ```shell
 sudo ./build.sh
 ```
-3. Wait around 3h on a 10Mbit line and average desktop computer.
-4. If build is succesfull you will find zipped image in your **output/output** directory. Unzip and burn with supplied writter or DD (Unix / Mac) to your SD card.
-5. Boot your Banana :=)
+- Wait around 3h on a 10Mbit line and average desktop computer.
+- If build is succesfull you will find zipped image in your **output/output** directory. Unzip and burn with supplied writter or DD (Unix / Mac) to your SD card.
+- Boot your Banana :=)
+- 
