@@ -7,7 +7,7 @@
 
 BOARD="bananapi"						# bananapi, cubietruck, cubox-i, bananapi-next, cubietruck-next
 RELEASE="wheezy"                                   		# jessie or wheezy
-VERSION="Banana Debian 1.4 $RELEASE"               		# just name
+VERSION="Banana Debian 1.5 $RELEASE"               		# just name
 SOURCE_COMPILE="yes"                               		# yes / no
 DEST_LANG="en_US.UTF-8"                         	 	# sl_SI.UTF-8, en_US.UTF-8
 TZDATA="Europe/Ljubljana"                         		# Timezone
