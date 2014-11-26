@@ -5,7 +5,8 @@
 # Configuration 
 #--------------------------------------------------------------------------------------------------------------------------------
 
-BOARD="bananapi"						# bananapi, cubietruck, cubox-i, bananapi-next, cubietruck-next
+BOARD="bananapi"						# bananapi
+BRANCH="default"						# default=3.4.x, mainline=next
 RELEASE="wheezy"                                   		# jessie or wheezy
 VERSION="Banana Debian 1.5 $RELEASE"               		# just name
 SOURCE_COMPILE="yes"                               		# yes / no
@@ -24,6 +25,10 @@ FBTFT="no"							# Small TFT support, https://github.com/notro/fbtft
 if [ "$UID" -ne 0 ]
   then echo "Please run as root"
   exit
+fi
+
+if [ "$BRANCH" == "next" ]; then
+	BOARD=$BOARD"-"$BRANCH
 fi
 
 # source is where we start the script
