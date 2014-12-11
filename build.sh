@@ -8,14 +8,14 @@
 BOARD="bananapi"						# bananapi
 BRANCH="default"						# default=3.4.x, mainline=next
 RELEASE="wheezy"                                   		# jessie or wheezy
-VERSION="Banana Debian 1.6 $RELEASE"               		# just name
+VERSION="${BOARD^} Debian 1.6 $RELEASE"               		# just name
 SOURCE_COMPILE="yes"                               		# yes / no
 KERNEL_CONFIGURE="yes"						# do you want to change my default configuration
 DEST_LANG="en_US.UTF-8"                         	 	# sl_SI.UTF-8, en_US.UTF-8
 TZDATA="Europe/Ljubljana"                         		# Timezone
 DEST=$(pwd)/output                      		      	# Destination
 ROOTPWD="1234"                               		  	# Must be changed @first login
-HOST="banana"						 	# Hostname
+HOST="$BOARD"						 	# Hostname
 USEALLCORES="no"						# Use all CPU cores for compiling
 SDSIZE="1000"							# SD image size in MB
 FBTFT="yes"							# Small TFT support, https://github.com/notro/fbtft
